@@ -1,52 +1,30 @@
-# Gatsby Portfolio Website
+# Yannick Identity / Public Voice
 
-This repo contains a static website written with [GatsbyJS](https://www.gatsbyjs.org/), integrated with content coming from [DatoCMS](https://www.datocms.com).
+Public identity/personal portfolio implementation using the historical Gatsby/DatoCMS stack.
 
-![Preview](preview.png)
+**Repository role:** `CANONICAL_PROJECT`. **Canonical object:** `YW-000600`.
 
-[See the live demo](https://demo-datocms-gatsby.netlify.com/)
+The upstream demo URL is not proof of Yannick deployment. Preserve upstream license/attribution; no stack upgrade or public deployment.
 
-If you want to use try this out yourself, you first need to set up a project on DatoCMS which will host your data.
+## Start here
 
-You can [sign up for a free account](https://dashboard.datocms.com/signup) and then you can simply click this button:
+| Need | Entry |
+|---|---|
+| Identity and authority | [PROJECT.md](PROJECT.md) |
+| Agent operating contract | [AGENTS.md](AGENTS.md) |
+| Canon and document authority | [Documentation map](docs/README.md#canon) |
+| Architecture | [Observed structure](docs/architecture/OVERVIEW.md) |
+| Key decisions | [Decision ledger](docs/decisions/DECISION-LEDGER.md) |
+| Current state | [CURRENT](docs/status/CURRENT.md) |
+| Specifications | [Specs map](docs/README.md#specs) |
+| Resume / handoff | [Resume map](docs/README.md#handoffs) |
 
-[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/projects/new-from-template/static-website/gatsby-portfolio)
+## Validation
 
-## Repo usage
+npm run build; npm run develop for local preview. Legacy Gatsby/node-sass dependencies and CMS credentials need separate compatibility verification.
 
-First, install the dependencies of this project:
+Commands are pointers from tracked manifests or existing runbooks, not test results from this audit. Deployment and live acceptance require their own evidence.
 
-```
-npm install
-```
+## Historical documentation
 
-Add an `.env` file containing the read-only API token of your DatoCMS site:
-
-```
-echo 'DATO_API_TOKEN=abc123' >> .env
-```
-
-Then, to run this website in development mode (with live-reload):
-
-```
-npm run develop
-```
-
-To build the final, production ready static website:
-
-```
-npm run build
-```
-
-The final result will be saved in the `public` directory.
-
-## About
-
-The goal of this project is to show how easily you can create static sites using the content (text, images, links, etc.) stored on [DatoCMS](https://www.datocms.com). This project is configured to fetch data from a specific administrative area using [the API DatoCMS provides](https://www.datocms.com/docs/content-management-api).
-
-You can find further information about how to integrate DatoCMS with Gatsby in [our documentation](https://www.datocms.com/docs/static-generators/gatsbyjs).
-
-This websites uses:
-
-- [GatsbyJS](https://github.com/gatsbyjs/gatsby) as website generator;
-- [gatsby-source-datocms](https://github.com/datocms/gatsby-source-datocms) to integrate the website with DatoCMS.
+[Previous README snapshot](docs/history/README-before-wave-a-2026-10-01.md) preserves prior documentation and attribution.
