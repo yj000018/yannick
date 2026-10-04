@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-04",
+  "baseline_commit": "c77227ffac03163634843ffdb39a5b75caec07ad",
+  "result": "INSTALL_FAILED_ON_CURRENT_RUNTIME",
+  "declared_runtime": ".nvmrc v12",
+  "tested_runtime": "Node 24.10.0 macOS arm64",
+  "command": "npm ci --no-audit --no-fund",
+  "observed_failure": "utf-8-validate native rebuild via node-gyp 3.8.0 fails: Python executable python unavailable",
+  "source_fact": "Gatsby 2 and node-sass 4 in existing manifest; DATO_API_TOKEN referenced by Gatsby config",
+  "build": "NOT_REACHED",
+  "legacy_node12_reproduction": "NOT_TESTED",
+  "content_credentials": "NOT_REQUESTED_OR_READ",
+  "tracked_source_changes": false,
+  "next_action": "Bounded modern-runtime migration proposal preserving public identity, creative content and attribution; separately establish content-service access or a source-backed static fallback."
+}
