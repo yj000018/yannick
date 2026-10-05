@@ -71,3 +71,9 @@ ref, rebuild the known artifact, then verify any separately released host.
 
 These references describe migration paths, not a verified compatible dependency
 set for this repository. Resolve and test exact versions during implementation.
+
+## Compatibility evidence — 2026-10-05
+
+A [proposed adapter verification module](../../verification/masonry/README.md) tests React 18 with the exact native Masonry 4.2.2/imagesLoaded 4.1.4 engines against the original React 16/wrapper baseline. Two strict frozen fixture installs, SSR and 12 synthetic geometry cases pass, including React prop updates, empty/restored grids, cleanup and cancellation. This is independent adapter preparation; the homepage does not import it and no original application or lock was upgraded. Fresh native reference loads avoid the observed stale 401→400 resize measurements; whole-site visual/content acceptance remains required.
+
+The isolated Gatsby 5 graph is not accepted. Default npm resolution overrides peer conflicts and reports 75 audit findings; strict resolution fails on Gatsby's TypeScript ESLint plugin 5.62.0 versus eslint-config-react-app 6.0.0's ^4 peer constraint. An experimental React server dependency also conflicts. No force/legacy-peer flag, application install, content read or deployment was used. Reconcile a supported compatible graph and security findings, then the source-backed CMS/query/route/image/SEO boundary before implementing the portfolio migration. [Exact receipt](../../evidence/MASONRY-COMPATIBILITY-2026-10-05.json).

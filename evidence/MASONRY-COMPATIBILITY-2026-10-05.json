@@ -1,0 +1,330 @@
+{
+  "date": "2026-10-05",
+  "repository": "yj000018/yannick",
+  "baseline": "c65d6861fdc6c879ffeb44ed0e18469bb98c5859",
+  "status": "PROPOSED_ADAPTER_VERIFIED_LOCALLY; PORTFOLIO_MIGRATION_NOT_ACCEPTED",
+  "recovery_tag": "archive/pre-masonry-verification-2026-10-05",
+  "scope": "Synthetic fixture module only; original portfolio source/configuration/lock unchanged",
+  "preserved_original_entries": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "git_blob": "1dc1c787aef6814d89fb610f2c41642dc0163691"
+    },
+    {
+      "path": ".nvmrc",
+      "mode": "100644",
+      "git_blob": "dae199aecb18022d9c525b7af95f6cd1bb44f43a"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "git_blob": "9252f819fd8897afb2718a489e57ff0c119cd084"
+    },
+    {
+      "path": "PROJECT.md",
+      "mode": "100644",
+      "git_blob": "a73a6031c25712708f5a4e3ec6808968f7db6e87"
+    },
+    {
+      "path": "datocms.json",
+      "mode": "100644",
+      "git_blob": "dc053bd87df47d52843bd877edb15cecad0bfbd6"
+    },
+    {
+      "path": "docs/README.md",
+      "mode": "100644",
+      "git_blob": "15d92f0ccb56879c3ea2aac45a53d92d0c76e8ee"
+    },
+    {
+      "path": "docs/architecture/OVERVIEW.md",
+      "mode": "100644",
+      "git_blob": "74534167600cee6e205e9bd2edf66b402790142d"
+    },
+    {
+      "path": "docs/decisions/DECISION-LEDGER.md",
+      "mode": "100644",
+      "git_blob": "2dfe925d52338feafa742f744174247e5417d373"
+    },
+    {
+      "path": "docs/history/README-before-wave-a-2026-10-01.md",
+      "mode": "100644",
+      "git_blob": "f6eb7fc41516e234ab36e95051c573d0e42196c6"
+    },
+    {
+      "path": "evidence/LEGACY-MODERNIZATION-BASELINE-2026-10-05.json",
+      "mode": "100644",
+      "git_blob": "2e7e639460531766609b39747d61a435233a6ae5"
+    },
+    {
+      "path": "evidence/build-audit-2026-10-04/LOCAL-VALIDATION.json",
+      "mode": "100644",
+      "git_blob": "f9223cdc2b9496d0a203d189b8d5ef426f6cfffd"
+    },
+    {
+      "path": "gatsby-config.js",
+      "mode": "100644",
+      "git_blob": "ebc982d61055f76f5cde4038c5c4415697869f3b"
+    },
+    {
+      "path": "gatsby-node.js",
+      "mode": "100644",
+      "git_blob": "1cee98f9e3718e5991c3b2d198d61faf7d0f73ca"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "git_blob": "656ada833e7745002bb3eea8cb1ff09d2ba7d336"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "git_blob": "3738778e5f4bf17971270f182e59646da112da86"
+    },
+    {
+      "path": "preview.png",
+      "mode": "100644",
+      "git_blob": "cfbcfa28861a2c95cf3ef7c6f9db11762a4d63f3"
+    },
+    {
+      "path": "src/components/layout.js",
+      "mode": "100644",
+      "git_blob": "6fa46ceb3497d57fb875ca6c7f9236f743c35f4b"
+    },
+    {
+      "path": "src/pages/404.js",
+      "mode": "100644",
+      "git_blob": "a091a00883676b4dcbb7d2cc8b187d769bfc0dd6"
+    },
+    {
+      "path": "src/pages/about.js",
+      "mode": "100644",
+      "git_blob": "4ebcd651f6bb790a517cc74791d8cefe2b007fae"
+    },
+    {
+      "path": "src/pages/index.js",
+      "mode": "100644",
+      "git_blob": "b82c413d41ad19ea58e9cf2c1ca812c87602f5cd"
+    },
+    {
+      "path": "src/styles/blocks/card.sass",
+      "mode": "100644",
+      "git_blob": "d000e24391a6f705a435d123aebfafce92167441"
+    },
+    {
+      "path": "src/styles/blocks/container.sass",
+      "mode": "100644",
+      "git_blob": "00945c93aea3fba23b01a17e5d712da9d22e1aae"
+    },
+    {
+      "path": "src/styles/blocks/mobile-header.sass",
+      "mode": "100644",
+      "git_blob": "6f1e817ad8f74b89cc2657454731532b887287e3"
+    },
+    {
+      "path": "src/styles/blocks/sheet.sass",
+      "mode": "100644",
+      "git_blob": "c31b80e508bc9f2218a4f5074b7fe32d0050d1cc"
+    },
+    {
+      "path": "src/styles/blocks/showcase.sass",
+      "mode": "100644",
+      "git_blob": "90932a0dac5d091c5a29474a248bf9812ea1f431"
+    },
+    {
+      "path": "src/styles/blocks/sidebar.sass",
+      "mode": "100644",
+      "git_blob": "4fe956bf6ea677d974783e1b3468d3edd340e790"
+    },
+    {
+      "path": "src/styles/blocks/slider.sass",
+      "mode": "100644",
+      "git_blob": "f521020aedfdcad30b1b39b3d10b0cec73e1b854"
+    },
+    {
+      "path": "src/styles/blocks/social.sass",
+      "mode": "100644",
+      "git_blob": "f5ee9ca2ff2631041839df58390de8ae1eb24776"
+    },
+    {
+      "path": "src/styles/index.sass",
+      "mode": "100644",
+      "git_blob": "5b5be9072f8d7599629112aeefc0b6d33bb1d187"
+    },
+    {
+      "path": "src/styles/reset.sass",
+      "mode": "100644",
+      "git_blob": "8e70ee219d3ce9658a5548fadafd216f345c99f6"
+    },
+    {
+      "path": "src/styles/variables/colors.sass",
+      "mode": "100644",
+      "git_blob": "2ee64dee873fff922cff01e644b390d8c2dcc537"
+    },
+    {
+      "path": "src/templates/work.js",
+      "mode": "100644",
+      "git_blob": "ffc663257f8ae09a0a75827b2256b7368199c224"
+    }
+  ],
+  "native_showcase_sass_sha256": "a22a3f29deadcc375b298f2ab4d5adb69ec7c147e61656e9a6fde4b839dcaeb5",
+  "native_root_package_lock_sha256": "c5b135c0ac5dfd1f71ab193ee91826d50b308b7217c96439183e439f08c4e1a4",
+  "fixture_package_locks": {
+    "modern": "b8ce0f8c6247c39e790a82bf3797fb10858511c90c86089d55fd3f06e33478d5",
+    "native_wrapper_reference": "60ab1151dfe38806dcabd43d2e439c7c22a6d430a37404f61775d8f8449e53bf"
+  },
+  "local_validation": {
+    "node": "24.10.0",
+    "strict_peer_frozen_installs": "PASS_BOTH",
+    "ssr_without_browser_globals": "PASS_SEVEN_SYNTHETIC_CARDS_AND_LINKS",
+    "browser": {
+      "pendingInitializationCancellation": true,
+      "referenceProtocol": "Fresh legacy load at each width versus continuous candidate resize; image-size changes use React props on both.",
+      "scope": "Synthetic compatibility fixtures only; not CMS/content/portfolio acceptance",
+      "baseline": "React 16.14.0 + native react-masonry-component 6.2.1",
+      "candidate": "React 18.3.1 StrictMode + proposed adapter",
+      "engines": "Same Masonry 4.2.2 / imagesLoaded 4.1.4",
+      "cases": [
+        {
+          "label": "responsive-1440",
+          "width": 1440,
+          "syntheticCards": 7,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "responsive-1400",
+          "width": 1400,
+          "syntheticCards": 7,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "responsive-1100",
+          "width": 1100,
+          "syntheticCards": 7,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "responsive-900",
+          "width": 900,
+          "syntheticCards": 7,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "responsive-401",
+          "width": 401,
+          "syntheticCards": 7,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "responsive-400",
+          "width": 400,
+          "syntheticCards": 7,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "responsive-320",
+          "width": 320,
+          "syntheticCards": 7,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "image-height-change",
+          "width": 320,
+          "syntheticCards": 7,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "insert-card",
+          "width": 320,
+          "syntheticCards": 8,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "remove-and-reorder",
+          "width": 320,
+          "syntheticCards": 4,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "empty-grid",
+          "width": 320,
+          "syntheticCards": 0,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "restore-grid",
+          "width": 320,
+          "syntheticCards": 7,
+          "geometryParityWithinPx": 1,
+          "sourceOrderAndLinksRetained": true,
+          "horizontalOverflow": false
+        }
+      ],
+      "unmountAndResizeWithoutErrors": true,
+      "browserPageErrors": [],
+      "externalRequests": []
+    },
+    "audit_snapshot": {
+      "modern_fixture": 0,
+      "legacy_fixture": 0,
+      "scope": "Only both isolated fixture dependency graphs; not the Gatsby application."
+    },
+    "native_sass_warnings": [
+      "slash division at lines 17 and 23; source unchanged"
+    ]
+  },
+  "isolated_gatsby_graph_trial": {
+    "accepted": false,
+    "root_application_modified": false,
+    "cms_read": false,
+    "forced_flags": false,
+    "default_resolution": {
+      "result": "EXIT_ZERO_WITH_PEER_OVERRIDES_AND_AUDIT_FINDINGS_NOT_COMPATIBILITY_PROOF",
+      "package_lock_sha256": "7464c742e00c6dfc92fc32bd39cfa58073047b77776e02639c9a594760a3673b",
+      "log_sha256": "b56ea85a5792ebf5b4c685c30b5248534c553dcde9c29159adf42ca4f1730c36",
+      "findings": {
+        "low": 5,
+        "moderate": 21,
+        "high": 47,
+        "critical": 2,
+        "total": 75
+      },
+      "additional_warning": "Experimental react-server-dom-webpack React peer conflict"
+    },
+    "strict_resolution": {
+      "result": "ERESOLVE",
+      "cause": "Gatsby 5.16.1 resolves @typescript-eslint/eslint-plugin 5.62.0; eslint-config-react-app 6.0.0 declares plugin ^4.0.0.",
+      "log_sha256": "349256305344db6eabba26d7f6818e123416cf5c4358adbcb6fb23abce11ffc9"
+    }
+  },
+  "hosted_ci": "Verify review and merged-main independently after publication. Only synthetic adapter checks are configured.",
+  "limits": [
+    "No original homepage uses the proposed adapter.",
+    "No whole-site build, actual CMS/query/route/asset/SEO parity, published identity or release acceptance.",
+    "Baseline comparison uses fresh legacy loads at each width; stale continuous native resizing was observed and retained as an explicit reference limitation.",
+    "Only native showcase Sass is compiled; complete site stylesheet migration remains unvalidated.",
+    "No source-backed content snapshot or credentials were acquired or published."
+  ]
+}

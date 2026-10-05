@@ -28,3 +28,7 @@ Commands are pointers from tracked manifests or existing runbooks, not test resu
 ## Historical documentation
 
 [Previous README snapshot](docs/history/README-before-wave-a-2026-10-01.md) preserves prior documentation and attribution.
+
+## Modernization verification
+
+[The proposed Masonry adapter](verification/masonry/README.md) has independent strict locks, synthetic layout/SSR checks and dedicated CI. It is not used by the legacy portfolio. Its CMS migration, root build and production acceptance remain open.

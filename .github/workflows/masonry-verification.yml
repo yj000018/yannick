@@ -1,0 +1,53 @@
+name: Proposed Masonry adapter verification
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "verification/masonry/**"
+      - "src/styles/blocks/showcase.sass"
+      - ".github/workflows/masonry-verification.yml"
+  pull_request:
+    paths:
+      - "verification/masonry/**"
+      - "src/styles/blocks/showcase.sass"
+      - ".github/workflows/masonry-verification.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  synthetic-compatibility:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: |
+            verification/masonry/package-lock.json
+            verification/masonry/legacy-baseline/package-lock.json
+      - name: Frozen strict-peer fixture installs
+        run: |
+          npm ci --strict-peer-deps --prefix verification/masonry
+          npm ci --strict-peer-deps --prefix verification/masonry/legacy-baseline
+      - name: Compile unchanged native Sass and synthetic fixtures
+        run: npm run build --prefix verification/masonry
+      - name: Verify server rendering without browser globals
+        run: node verification/masonry/build/ssr.cjs
+      - name: Install fixture browser
+        working-directory: verification/masonry
+        run: npx playwright install --with-deps chromium
+      - name: Compare synthetic legacy and proposed layouts
+        run: npm test --prefix verification/masonry
+      - name: Ensure checks preserve tracked source and locks
+        run: git diff --exit-code
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: masonry-fixture-proof-${{ github.sha }}
+          path: verification/masonry/proof.json
+          if-no-files-found: error
+          retention-days: 14

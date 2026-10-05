@@ -1,0 +1,25 @@
+{
+  "name": "yannick-masonry-verification",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Synthetic compatibility proof only; not portfolio content or deployment",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node verify.mjs"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "masonry-layout": "4.2.2",
+    "imagesloaded": "4.1.4"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "playwright": "1.63.0",
+    "sass": "1.105.1"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

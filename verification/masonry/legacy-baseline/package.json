@@ -1,0 +1,11 @@
+{
+  "name": "synthetic-native-masonry-baseline",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-masonry-component": "6.2.1"
+  }
+}
