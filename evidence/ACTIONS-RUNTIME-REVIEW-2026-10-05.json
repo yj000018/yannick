@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-05",
+  "execution_owner": "Codex",
+  "baseline": "375959e2074b383acea8eac11b4763ce5c85a9d2",
+  "status": "LOCAL_PREPARATION_REMOTE_AUTH_BLOCKED",
+  "workflow": ".github/workflows/masonry-verification.yml",
+  "before_sha256": "d041f4629499a5049e2c1efc081b028f7c98e646549dba14902620430ff37e5b",
+  "after_sha256": "e621e036829b5b8fe43099db092343b64a61c0670502e48fed49121e85792260",
+  "actions": [
+    {
+      "before": "actions/checkout@v4",
+      "after": "actions/checkout@v7.0.1"
+    },
+    {
+      "before": "actions/setup-node@v4",
+      "after": "actions/setup-node@v7.0.0"
+    },
+    {
+      "before": "actions/upload-artifact@v4",
+      "after": "actions/upload-artifact@v7.0.1"
+    }
+  ],
+  "official_releases": [
+    {
+      "repo": "actions/checkout",
+      "tag": "v7.0.1",
+      "commit": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+      "url": "https://github.com/actions/checkout/releases/tag/v7.0.1",
+      "runs": "\nruns:\r\n  using: node24\r\n  main: dist/index.js\r\n  post: dist/index.js\r\n"
+    },
+    {
+      "repo": "actions/setup-node",
+      "tag": "v7.0.0",
+      "commit": "820762786026740c76f36085b0efc47a31fe5020",
+      "url": "https://github.com/actions/setup-node/releases/tag/v7.0.0",
+      "runs": "\nruns:\n  using: 'node24'\n  main: 'dist/setup/index.js'\n  post: 'dist/cache-save/index.js'\n  post-if: success()\n"
+    },
+    {
+      "repo": "actions/upload-artifact",
+      "tag": "v7.0.1",
+      "commit": "043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "url": "https://github.com/actions/upload-artifact/releases/tag/v7.0.1",
+      "runs": "\nruns:\n  using: 'node24'\n  main: 'dist/upload/index.js'\n"
+    }
+  ],
+  "validation": "Structured YAML unchanged after only reviewed action versions and explicit basic Gradle cache provider are normalized. Existing commands/triggers/permissions/toolchain versions/locks preserved. Native Node 24 action runtime on hosted runners.",
+  "boundary": "Verification only; no vendor SDK, device, CMS, provider, native transport, release or live-site acceptance. Source files and historical evidence unchanged.",
+  "next": "Restore GitHub authentication, fetch/refresh current remote main, reconcile, create PR, attach it, verify review and merged-main runs and full remote tree. No remote verification claimed."
+}
