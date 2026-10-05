@@ -1,0 +1,152 @@
+{
+  "baseline_commit": "fa5fbeefda9253825287b6f7cd7a6373e34e2199",
+  "original_files": {
+    ".gitignore": {
+      "mode": "100644",
+      "git_blob_sha": "1dc1c787aef6814d89fb610f2c41642dc0163691"
+    },
+    ".nvmrc": {
+      "mode": "100644",
+      "git_blob_sha": "dae199aecb18022d9c525b7af95f6cd1bb44f43a"
+    },
+    "AGENTS.md": {
+      "mode": "100644",
+      "git_blob_sha": "ee304fb0faf086725660d6ca7dd757c403f88c7c"
+    },
+    "LICENSE": {
+      "mode": "100644",
+      "git_blob_sha": "9252f819fd8897afb2718a489e57ff0c119cd084"
+    },
+    "PROJECT.md": {
+      "mode": "100644",
+      "git_blob_sha": "a73a6031c25712708f5a4e3ec6808968f7db6e87"
+    },
+    "README.md": {
+      "mode": "100644",
+      "git_blob_sha": "eb325882f44aec3629908d97016cb03d05b883ee"
+    },
+    "datocms.json": {
+      "mode": "100644",
+      "git_blob_sha": "dc053bd87df47d52843bd877edb15cecad0bfbd6"
+    },
+    "docs/README.md": {
+      "mode": "100644",
+      "git_blob_sha": "1f73a5347b62c80beefd1fde479031a280f85110"
+    },
+    "docs/architecture/OVERVIEW.md": {
+      "mode": "100644",
+      "git_blob_sha": "74534167600cee6e205e9bd2edf66b402790142d"
+    },
+    "docs/decisions/DECISION-LEDGER.md": {
+      "mode": "100644",
+      "git_blob_sha": "2dfe925d52338feafa742f744174247e5417d373"
+    },
+    "docs/history/README-before-wave-a-2026-10-01.md": {
+      "mode": "100644",
+      "git_blob_sha": "f6eb7fc41516e234ab36e95051c573d0e42196c6"
+    },
+    "docs/status/CURRENT.md": {
+      "mode": "100644",
+      "git_blob_sha": "e69ed4117e06456db3be75ea424f34b048f440ef"
+    },
+    "evidence/build-audit-2026-10-04/LOCAL-VALIDATION.json": {
+      "mode": "100644",
+      "git_blob_sha": "f9223cdc2b9496d0a203d189b8d5ef426f6cfffd"
+    },
+    "gatsby-config.js": {
+      "mode": "100644",
+      "git_blob_sha": "ebc982d61055f76f5cde4038c5c4415697869f3b"
+    },
+    "gatsby-node.js": {
+      "mode": "100644",
+      "git_blob_sha": "1cee98f9e3718e5991c3b2d198d61faf7d0f73ca"
+    },
+    "package-lock.json": {
+      "mode": "100644",
+      "git_blob_sha": "656ada833e7745002bb3eea8cb1ff09d2ba7d336"
+    },
+    "package.json": {
+      "mode": "100644",
+      "git_blob_sha": "3738778e5f4bf17971270f182e59646da112da86"
+    },
+    "preview.png": {
+      "mode": "100644",
+      "git_blob_sha": "cfbcfa28861a2c95cf3ef7c6f9db11762a4d63f3"
+    },
+    "src/components/layout.js": {
+      "mode": "100644",
+      "git_blob_sha": "6fa46ceb3497d57fb875ca6c7f9236f743c35f4b"
+    },
+    "src/pages/404.js": {
+      "mode": "100644",
+      "git_blob_sha": "a091a00883676b4dcbb7d2cc8b187d769bfc0dd6"
+    },
+    "src/pages/about.js": {
+      "mode": "100644",
+      "git_blob_sha": "4ebcd651f6bb790a517cc74791d8cefe2b007fae"
+    },
+    "src/pages/index.js": {
+      "mode": "100644",
+      "git_blob_sha": "b82c413d41ad19ea58e9cf2c1ca812c87602f5cd"
+    },
+    "src/styles/blocks/card.sass": {
+      "mode": "100644",
+      "git_blob_sha": "d000e24391a6f705a435d123aebfafce92167441"
+    },
+    "src/styles/blocks/container.sass": {
+      "mode": "100644",
+      "git_blob_sha": "00945c93aea3fba23b01a17e5d712da9d22e1aae"
+    },
+    "src/styles/blocks/mobile-header.sass": {
+      "mode": "100644",
+      "git_blob_sha": "6f1e817ad8f74b89cc2657454731532b887287e3"
+    },
+    "src/styles/blocks/sheet.sass": {
+      "mode": "100644",
+      "git_blob_sha": "c31b80e508bc9f2218a4f5074b7fe32d0050d1cc"
+    },
+    "src/styles/blocks/showcase.sass": {
+      "mode": "100644",
+      "git_blob_sha": "90932a0dac5d091c5a29474a248bf9812ea1f431"
+    },
+    "src/styles/blocks/sidebar.sass": {
+      "mode": "100644",
+      "git_blob_sha": "4fe956bf6ea677d974783e1b3468d3edd340e790"
+    },
+    "src/styles/blocks/slider.sass": {
+      "mode": "100644",
+      "git_blob_sha": "f521020aedfdcad30b1b39b3d10b0cec73e1b854"
+    },
+    "src/styles/blocks/social.sass": {
+      "mode": "100644",
+      "git_blob_sha": "f5ee9ca2ff2631041839df58390de8ae1eb24776"
+    },
+    "src/styles/index.sass": {
+      "mode": "100644",
+      "git_blob_sha": "5b5be9072f8d7599629112aeefc0b6d33bb1d187"
+    },
+    "src/styles/reset.sass": {
+      "mode": "100644",
+      "git_blob_sha": "8e70ee219d3ce9658a5548fadafd216f345c99f6"
+    },
+    "src/styles/variables/colors.sass": {
+      "mode": "100644",
+      "git_blob_sha": "2ee64dee873fff922cff01e644b390d8c2dcc537"
+    },
+    "src/templates/work.js": {
+      "mode": "100644",
+      "git_blob_sha": "ffc663257f8ae09a0a75827b2256b7368199c224"
+    }
+  },
+  "source_consumers": [
+    "gatsby-node.js",
+    "src/components/layout.js",
+    "src/pages/index.js",
+    "src/pages/about.js",
+    "src/templates/work.js"
+  ],
+  "cms_env_name": "DATO_API_TOKEN",
+  "cms_access": "NOT TESTED; no credential read or request performed",
+  "implementation": "NOT STARTED; proposal only",
+  "prior_install_failure": "Node 24/Mac arm64: native utf-8-validate via node-gyp 3.8.0 missing Python; build not reached"
+}

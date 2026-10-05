@@ -33,3 +33,12 @@ Application files and dependency locks remain unchanged. Resume with a bounded
 modern-runtime migration proposal preserving identity, content and upstream
 attribution, and a separately verified content-service or source-backed static
 boundary. Do not call this application build or deployment ready.
+
+## Modernization preparation — 2026-10-05
+
+The [bounded modernization proposal](../specs/LEGACY-MODERNIZATION-2026-10-05.md)
+is prepared with an exact baseline manifest, CMS consumers, route/content parity
+and rollback requirements. No application source, dependency lock or creative
+content is changed. Read-only CMS schema/content availability is unverified;
+real query/route parity and publication remain open. The original Wave A boundary
+is historical; the user subsequently authorized technical continuation.

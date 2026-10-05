@@ -43,3 +43,8 @@ No dedicated accepted surface identified in the reviewed entrypoints. This is a 
 ## Evidence
 
 No dedicated accepted surface identified in the reviewed entrypoints. This is a documentary gap, not proof that the underlying corpus contains none. Add material here when needed, preserving original provenance.
+
+## Technical continuation material
+
+- [Modernization proposal (not accepted implementation)](specs/LEGACY-MODERNIZATION-2026-10-05.md)
+- [Exact preparation baseline](../evidence/LEGACY-MODERNIZATION-BASELINE-2026-10-05.json)
