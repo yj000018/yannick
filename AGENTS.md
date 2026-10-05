@@ -21,3 +21,7 @@ Use the map in docs/README.md. Accepted canon, accepted decisions, architecture/
 ## Secrets
 
 Never commit credentials, access tokens, cookies, private runtime configuration or newly acquired private raw exports. Use ignored local configuration and an approved secret store. Do not print secrets in validation receipts.
+
+## Isolated compatibility verification
+
+[verification/masonry](verification/masonry/README.md) tests a proposed adapter under Node 24, independently from the legacy root application. Keep fixtures explicitly synthetic and retain the original site/CMS boundary. Passing this module does not authorize replacing portfolio content, upgrading the whole stack or publishing the site.

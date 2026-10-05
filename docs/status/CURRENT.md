@@ -42,3 +42,7 @@ and rollback requirements. No application source, dependency lock or creative
 content is changed. Read-only CMS schema/content availability is unverified;
 real query/route parity and publication remain open. The original Wave A boundary
 is historical; the user subsequently authorized technical continuation.
+
+## Masonry compatibility follow-up — 2026-10-05
+
+The [verification-only adapter](../../verification/masonry/README.md) passes two strict frozen fixture installs, SSR without browser globals, 12 synthetic geometry/content-order cases, cleanup and pending-initialization cancellation. React 18 uses the original Masonry/image-loader engines. Application source/configuration and original lock remain unchanged. [The receipt](../../evidence/MASONRY-COMPATIBILITY-2026-10-05.json) separates these checks from the rejected broader Gatsby graph (strict ESLint peer conflict; default graph has 75 audit findings). Actual CMS/route/content/SEO and deployment acceptance remain open.

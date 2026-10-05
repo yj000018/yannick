@@ -1,0 +1,11 @@
+import React from 'react';
+import {renderToString} from 'react-dom/server';
+import MasonryAdapter from './MasonryAdapter.jsx';
+import {cards, initialIds} from './fixtures.mjs';
+import assert from 'node:assert/strict';
+assert.equal(typeof window, 'undefined');
+const output = renderToString(<MasonryAdapter className="showcase">{cards(React, initialIds)}</MasonryAdapter>);
+assert.equal((output.match(/data-card=/g)||[]).length, 7);
+assert.equal((output.match(/\/works\/synthetic-/g)||[]).length, 7);
+assert.ok(output.startsWith('<div class="showcase">'));
+console.log('PASS: SSR retains seven synthetic cards/links without browser globals');
